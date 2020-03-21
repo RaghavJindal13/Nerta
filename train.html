@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet@2.0.2"></script>
+    <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+  </head>
+  <body style="background-color:cyan;">
+    <h1 align="center">Netra</h1>
+    <hr>
+    <h1 align="center">U-Hackathon 2.0</h1>
+    <h2>Result : </h2>
+    <div id="console"></div>
+    <!-- Add an image that we will use to test -->
+    <video autoplay playsinline muted id="webcam"   width="600px" height="400px"></video>
+    <br><br>
+    <button id="class-a">Add A</button>
+    <button id="class-b">Add B</button>
+    <button id="class-c">Add C</button>
+
+    <button onclick="play()">Play Audio</button>
+    <!-- Load index.js after the content of the page -->
+    <script src="index.js"></script>
+    <hr>
+    <h3>Image Recognition</h3>
+
+  </body>
+</html>
